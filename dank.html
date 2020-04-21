@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite memes of mine</title>
+    <link rel="stylesheet" href = "css/main.css">
+</head>
+    <body>
+
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+            <!-- Overlay content -->
+            <div class="overlay-content">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            </div>
+        
+        </div>
+
+        <header>
+           <h1>My Favourite memes</h1> 
+        </header>
+        <aside>
+            <ul id= "mainmenu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="dank.html">DANK</a></li>
+                <li><a href="offensive.html">OFFENSIVE</a></li>
+                <li><a href="stale.html">STALE</a></li>
+                <li><a href="autistic.html">AUTISTIC</a></li>
+                <li><a href="dark.html">DARK</a></li>
+            </ul>
+        </aside>
+        <main>
+            <br></br>
+            <br></br>
+            <br></br>
+            <a onclick="openNav()" class="button">lel click it</a>
+            <br></br>
+            <br></br>
+            <br></br>
+            <h1>DANK MEME OF THE YEAR:</h1>
+            <br></br>
+            <img src = "https://i.redd.it/hmfew2eq42u41.jpg">
+            <br></br>
+            <br></br>
+            <br></br>
+            <p>
+                OK BOOMER
+            </p>
+        </main>
+    </body>
+    <script>
+                /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+</html>
